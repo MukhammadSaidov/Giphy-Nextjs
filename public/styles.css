@@ -1,0 +1,52 @@
+body {
+    color: rgb(85, 85, 85);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px!important;
+    margin: 0 auto;
+    padding: 0px 40px;
+}
+
+.giphy-search-results-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+img {
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-gap: 30px;
+    height: 40px;
+}
+
+button {
+    background: blueviolet;
+    color: #fff;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+button:focus, input:focus {
+    outline: none;
+}
+
+input {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+}
+
+.btn {
+    padding: 15px 25px;
+    margin-left: 20px;
+}
