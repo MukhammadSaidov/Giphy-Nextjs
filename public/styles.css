@@ -36,7 +36,7 @@ button {
     cursor: pointer;
 }
 
-button:focus, input:focus {
+button:focus, input:focus, .btn:focus {
     outline: none;
 }
 
@@ -47,6 +47,7 @@ input {
 }
 
 .btn {
-    padding: 15px 25px;
+    padding: 10px 25px;
     margin-left: 20px;
+    border-radius: 15px;
 }
